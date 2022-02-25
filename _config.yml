@@ -1,14 +1,14 @@
 # main text of home
-title: John Doe
-bio: A Person who travels the world eating noodles
+title: Satya Dillikar
+bio: Hands-on Software Architect with extensive experience developing and delivering distributed enterprise-class mission-critical software applications.
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: A blog about bleeding edge technology and related projects
 
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.jpg
+picture: assets/images/satya-cartoon.jpeg
 
 # your site color theme, false to light theme
 dark-theme: true
@@ -17,9 +17,12 @@ dark-theme: true
 # and specify source (external or local).
 resume: true
 resume-external: true
-resume-url: https://google.com/?q=my+resume
+resume-url: https://github.com/satya-dillikar/satya-dillikar.github.io/blob/main/cv.pdf
 
-url: https://sergiokopplin.github.io/indigo
+port : 5001
+
+url: https://softbuild-dev.web.app
+#url: https://sergiokopplin.github.io/indigo
 # your url: https://USERNAME.github.io
 
 permalink: /:title/
@@ -33,26 +36,26 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
-instagram: myinstagram
-linkedin: mylinkedin
-github: mygithub
-email: myemail@gmail.com
+#facebook: myfacebook
+#twitter: mytwitter
+#instagram: myinstagram
+linkedin: satya-dillikar
+github: satya-dillikar
+email: satya.dillikar@gmail.com
 
-authors:
-  johndoe:
-    name: John Doe
-    bio: A Man who travels the world eating noodles
-    external-image: false
-    picture: assets/images/profile.jpg
-    twitter: johndoe
-  jamesfoster:
-    name: James Foster
-    bio: A Man who develops software with coffee
-    external-image: false
-    picture: assets/images/james.jpg
-    twitter: jamesfoster
+# authors:
+#   johndoe:
+#     name: John Doe
+#     bio: A Man who travels the world eating noodles
+#     external-image: false
+#     picture: assets/images/profile.jpg
+#     twitter: johndoe
+#   jamesfoster:
+#     name: James Foster
+#     bio: A Man who develops software with coffee
+#     external-image: false
+#     picture: assets/images/james.jpg
+#     twitter: jamesfoster
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -123,3 +126,4 @@ exclude:
     "FAQ.md",
     "vendor",
   ]
+
